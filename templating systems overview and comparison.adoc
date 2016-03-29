@@ -1,0 +1,48 @@
+== Templating systems overview & comparison
+
+==== Requirements: 
+    We shoot for nice & clean Java templating system, easy to see, easy to change, easy to maintain. Even though Xtend is not desired to continue with, it is present in this overview & comparison to be able to see differencies. We need to comply with Java 9 and integrate seamlessly with Maven.
+
+* *Xtend*
+** *main traits:*
+*** supports template expressions, can be nested and span multiple lines
+*** allow readable string concatenation
+*** white space handling
+** *pros:*
+** *cons:*
+** *documentation:*
+*** https://eclipse.org/xtend/documentation/
+
+* *Java Emitter Template (JET)*
+** *main traits:*
+*** "model to text" engine which allows to generate (text) output based on an EMF model.
+*** JSP similar syntax
+*** supports templates & expressions
+*** white space handling
+** *pros:*
+** *cons:*
+*** works mainly within Eclipse environment (EMF)
+*** maven integration via tikal-maven-jet-plugin seems to be obsolete
+** *documentation:*
+*** https://eclipse.org/articles/Article-JET/jet_tutorial1.html
+*** http://www.trajano.net/2014/07/using-jet-to-create-code-in-maven/
+*** http://www.vogella.com/tutorials/EclipseJET/article.html
+
+* *Twirl (Play Scala-based template engine)*
+** *main traits:*
+*** template is not a place for complex logic but rather just for accessing data from model objects
+** *pros:*
+*** Play Framework Scala template engine, repackaged for stand-alone use
+** *cons:*
+*** need sbt-plugin
+** *documentation:*
+*** https://www.playframework.com/documentation/2.5.x/JavaTemplates
+*** https://github.com/playframework/twirl
+*** https://github.com/spray/twirl
+
+* *Velocity*
+** *main traits:*
+** *pros:*
+** *cons:*
+** *documentation:*
+** https://eclipse.org/xtend/documentation/
