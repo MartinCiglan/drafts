@@ -13,6 +13,14 @@
 ** *documentation:*
 *** https://eclipse.org/xtend/documentation/
 
+* *String Template*
+** *main traits:*
+*** Java template engine for generating source code
+** *pros:*
+** *cons:*
+** *documentation:*
+*** http://www.stringtemplate.org/
+
 * *Java Emitter Template (JET)*
 ** *main traits:*
 *** "model to text" engine which allows to generate (text) output based on an EMF model.
@@ -39,10 +47,3 @@
 *** https://www.playframework.com/documentation/2.5.x/JavaTemplates
 *** https://github.com/playframework/twirl
 *** https://github.com/spray/twirl
-
-* *Velocity*
-** *main traits:*
-** *pros:*
-** *cons:*
-** *documentation:*
-** https://eclipse.org/xtend/documentation/
