@@ -1,7 +1,9 @@
 == Templating systems overview & comparison
 
 ==== Requirements: 
-    We shoot for nice & clean Java templating system, easy to see, easy to change, easy to maintain. Even though Xtend is not desired to continue with, it is present in this overview & comparison to be able to see differencies. We need to comply with Java 9 and integrate seamlessly with Maven.
+    We shoot for nice & clean Java templating system, easy to see, easy to change, easy to maintain.
+    Even though Xtend is not desired to continue with, it is present in this overview & comparison
+    to be able to see differencies. We need to comply with Java 9 and integrate seamlessly with Maven.
 
 * *Xtend*
 ** *main traits:*
